@@ -1,0 +1,49 @@
+{
+  "config": {
+    "id": "36a3b0b5-bad0-4a04-b79b-441c7cef77db",
+    "label": "BetterBibTeX JSON",
+    "localeDateOrder": "dmy",
+    "options": {
+      "exportNotes": true
+    },
+    "preferences": {
+      "asciiBibLaTeX": true,
+      "asciiBibTeX": false,
+      "autoPinDelay": 1,
+      "biblatexExtendedNameFormat": true,
+      "bibtexURL": "url",
+      "caching": false,
+      "citekeyFold": false,
+      "citekeyFormat": "[auth:lower][year][veryshorttitle]",
+      "keyScope": "global",
+      "mapUnicode": "minimal-packages",
+      "quickCopyMode": "citekeys",
+      "verbatimFields": "url,doi,file,eprint,verba,verbb,verbc,groups",
+      "charmap": "{\"\\\"\":{\"text\":\"{\\\"}\"}}"
+    }
+  },
+  "items": [
+    {
+      "ISBN": "978-3-939926-10-8",
+      "citationKey": "wolf2020Zwischen",
+      "creators": [
+        {
+          "creatorType": "author",
+          "firstName": "Christof",
+          "lastName": "Wolf"
+        }
+      ],
+      "date": "2020",
+      "extra": [
+        "OCLC: 1226310859",
+        "Citation Key: wolf2020Zwischen"
+      ],
+      "itemID": 1,
+      "itemType": "book",
+      "language": "German",
+      "libraryCatalog": "Open WorldCat",
+      "publisher": "Loyola Productions Munich GmbH",
+      "title": "Zwischen Illusion und Wirklichkeit Wachowskis \"Matrix\" als filmische Auseinandersetzung mit der digitalen Welt"
+    }
+  ]
+}

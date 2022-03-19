@@ -48,6 +48,12 @@ default: `5`
 
 How often the Better BibTeX database should be saved to disk. Defaults to once every 5 seconds. Note that your database is always saved when your computer goes idle, or when you exit Zotero.
 
+## charmap
+
+default: `<not set>`
+
+You can enter a JSON mapping from single character to raw latex here, and these will be applied when you export as ASCII.
+
 ## csquotes
 
 default: `<not set>`
