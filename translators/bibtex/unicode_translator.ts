@@ -78,7 +78,10 @@ const htmlConverter = new class HTMLConverter {
       this.mapping = unicode2latex.ascii
     }
     // safeguard against modifications for reusable workers
-    this.mapping = {...this.charmap(), ...this.mapping}
+    this.mapping = {
+      ...this.mapping,
+      ...this.charmap(),
+    }
 
     if (!this.mapping.initialized) {
       for (const c of Translator.preferences.ascii) {
